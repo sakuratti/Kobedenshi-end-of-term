@@ -1,0 +1,72 @@
+body{
+    background-color:aliceblue;
+}
+
+
+ul {
+	width: 200px;
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	background-color: white;
+}
+li a {
+	display: block;
+	padding: 8px 16px;
+	text-decoration: none;
+	color: black;
+}
+li {
+	text-align: center;
+}
+li:last-child {
+	border-bottom: none;
+}
+li a.active {
+	color: white;
+	background-color: black;
+}
+li a:hover:not(.active) {
+	color: white;
+	background-color: red;
+}
+
+
+h1{
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    font-size: 45px;
+}
+
+.choice{
+    width: auto; height:100px;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+.calculate{
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    font-size: 50px;
+}
+
+#btn{
+    width: 200px; height: 80px;
+    font-size:40px;
+    font-family:monospace;
+    margin-bottom: 50px;
+}
+
+.result{
+    background-color: white;
+    width: 400px; height: 170px;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    font-size: 100px;
+    border: 1px solid #333333; border-radius: 10px;
+}

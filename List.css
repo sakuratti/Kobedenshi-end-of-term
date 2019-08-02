@@ -1,0 +1,31 @@
+body{
+	background-color: aliceblue;
+}
+
+ul {
+	width: 200px;
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	background-color: white;
+}
+li a {
+	display: block;
+	padding: 8px 16px;
+	text-decoration: none;
+	color: black;
+}
+li {
+	text-align: center;
+}
+li:last-child {
+	border-bottom: none;
+}
+li a.active {
+	color: white;
+	background-color: black;
+}
+li a:hover:not(.active) {
+	color: white;
+	background-color: red;
+}
