@@ -46,6 +46,10 @@ h1{
     margin-left: auto;
 }
 
+select{
+    width: 800px; height: 75px;
+}
+
 
 .calculate{
     text-align: center;
