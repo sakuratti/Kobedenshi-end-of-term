@@ -1,0 +1,159 @@
+body{
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#support{
+    text-align: left;
+    margin-left: 100px;
+    margin-top:20px;
+}
+#name{
+    float: right;
+    font-size: 16px;
+    color: rgb(52, 52, 209);
+}
+
+#back{
+    font-size: 20px;
+    height: 90px;
+    width: 200px;
+    font-family: monospace;
+    background-color: rgb(39, 150, 140);
+    border: solid 4px;
+    border-color: black;
+    border-radius: 10px;
+    color:white;
+    text-shadow: 1px 1px 0 #000;
+}
+
+#setbody{
+    margin-top: 45px;
+}
+
+#uriage{
+    float:left;
+    height: 100%;
+}
+
+#Youbi{
+    float: left;
+}
+
+#Month{
+    float: left;
+}
+
+.SelfData{
+    font-size: 30px;
+    height: 40px;
+    width: 200px;
+    border: solid 2px;
+    border-color: black;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.title{
+    font-family: monospace;
+}
+
+#gird{
+    margin-top: 20px;
+    margin-left: 40px;
+    font-size: 20px;
+    height: 60px;
+    width: 150px;
+}
+
+#tuisaku{
+    margin-top: 40px;
+}
+
+#ok{
+    margin-top: 20px;
+    margin-left: 40px;
+    font-size: 20px;
+    height: 60px;
+    width: 150px;
+    font-family: monospace;
+    background-color: rgb(128, 199, 81);
+    border: solid 2px;
+    border-radius: 10px;
+    color:white;
+    border-color: rgb(63, 57, 57);
+    text-shadow: 1px 1px 0 #000;
+}
+
+#empty{
+    height:100px;
+    width: 400px;
+    float: left;
+}
+
+#Bumon{
+    float: left;
+}
+
+.bumon{
+    margin-top: 20px;
+    margin-left: 40px;
+    font-size: 20px;
+    height: 60px;
+    width: 250px;
+    font-family: monospace;
+    background-color: rgb(69, 148, 168);
+    border: solid 3px;
+    border-radius: 10px;
+    color:white;
+    border-color: rgb(0, 0, 0);
+    text-shadow: 1px 1px 0 #000;
+}
+#sou{
+    background-color: rgb(219, 163, 58);
+}
+#tik{
+    background-color: rgb(129, 46, 32);
+}
+#sui{
+    background-color: rgb(47, 165, 185);
+}
+#nou{
+    background-color: rgb(28, 133, 36);
+}
+#nip{
+    background-color: rgb(111, 129, 46);
+}
+
+.ts{
+    margin-top: 20px;
+    margin-left: 40px;
+    font-size: 20px;
+    height: 50px;
+    width: 120px;
+    font-family: monospace;
+    background-color: rgb(128, 199, 81);
+    border: solid 2px;
+    border-radius: 10px;
+    color:white;
+    border-color: rgb(63, 57, 57);
+    text-shadow: 1px 1px 0 #000;
+}
+
+#delete{
+    height: 50px;
+    margin-top: 45px;
+}
+
+#del{
+    background-color: rgb(179, 48, 48);
+}
+
+#footer{
+    clear: both;
+    text-align: center;
+    width: 100%;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}

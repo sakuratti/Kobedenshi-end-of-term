@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="utf-8">
+        <title>割引決定支援システム</title>
+        <link rel="stylesheet" type="text/css" href="CSS/style.css">
+        <link rel="shortcut icon" type="image/png" href="img/SmartFavicon.png">
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript"></script>
+        <script type="text/javascript" src="JS/check.js"></script>
+    </head>
+    <body>
+        <div id="login">
+            <a href="HTML/login.html">ログイン</a> ｜ 
+            <a href="HTML/err.html">新規登録</a>
+        </div>
+        <form action="cgi-bin/Calculate.cgi" method="POST">
+            <div class="product">
+                <span class="Check">販売時間
+                </span>
+                <input type="number" name="Time" class="SelfData" id="fm1">
+                h
+                <div id="fm1_error" class="err"></div>
+            </div>
+            <div class="product">
+                <span class="Check">一日の平均販売数</span>
+                <input type="number" name="Speed" class="SelfData" id="fm2">
+                個
+                <div id="fm2_error" class="err"></div>
+            </div>
+            <div class="product">
+                <span class="Check">在庫数</span>
+                <input type="number" name="Amount" class="SelfData" id="fm3">
+                個
+                <div id="fm3_error" class="err"></div>
+            </div>
+            <div class="product4">
+                <input type="submit" id="submit" value="計   算">
+            </div>
+        </form>
+        <div id="footer"><a href="HTML/help.html">ヘルプ</a>　｜　©️2019 割引決定支援システム</div>
+    </body>
+</html>

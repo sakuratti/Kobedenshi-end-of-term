@@ -1,0 +1,68 @@
+body{
+    font-size: 50px;
+    text-align: center;
+    font-family: Hiragino Kaku Gothic Std;
+    background-color: white
+}
+
+#login{
+    text-align: right;
+    font-size: 20px;
+    margin-right: 40px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.SelfData{
+    height: 50px;
+    width: 200px;
+    font-size: 50px;
+    text-align: center;
+    font-family: Hiragino Kaku Gothic Std;
+    background-color: floralwhite;
+}
+
+.product{
+    margin-top: 70px;
+}
+
+.Check{
+    color: rgba(60, 156, 41, 0.76);
+}
+
+.product4{
+    margin-top: 75px;
+    height: 70px;
+}
+
+#submit{
+    font-size:40px;
+    width: 250px;
+    height: 100px;
+    font-family: monospace;
+    background-color: rgb(39, 150, 140);
+    border: solid 4px;
+    border-color: black;
+    border-radius: 10px;
+    color:white;
+    text-shadow: 1px 1px 0 #000;
+}
+
+#footer{
+    width: 100%;
+    margin-top:20px;
+    position: absolute;
+    bottom: 0;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.err{
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:red;
+}
+
+.inp_error{
+    border: solid 2px;
+    border-color: red;
+}

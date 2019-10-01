@@ -1,0 +1,92 @@
+body{
+    font-family: Hiragino Kaku Gothic Std;
+    background-color: white;
+    height: 100%;
+    width: 100%;
+    background-color: aliceblue
+}
+
+
+.main{
+    text-align: center;
+    margin-top: 150px;
+    float: left;
+    width: 65%;
+}
+
+h1{
+    font-size: 64px;
+    color:black;
+    text-align: center;
+}
+#Check1{
+    color: red;
+}
+h2{
+    margin-top: 130px;
+    font-size: 50px;
+    padding-bottom: 40px;
+    color: black;
+    text-align: center;
+}
+#Check2{
+    color: rgb(196, 68, 68);
+}
+
+
+.discription{
+    margin-top: 80px;
+    float:left;
+    width: 32%;
+}
+
+ul{
+    border:solid 3px;
+    border-color: rgb(140, 140, 190);
+    border-radius: 5px;
+    font-size:30px;
+    background-color: white;
+}
+
+
+#aoao{
+    border:solid 3px;
+    border-color: rgb(140, 140, 190);
+    border-radius: 5px;
+    font-size:30px;
+    background-color: white;
+    color:black;
+}
+
+
+#support{
+    text-align: center;
+    clear:both;
+    width:100%;
+}
+#back{
+    font-size:40px;
+    width: 250px;
+    height: 100px;
+    font-family: monospace;
+    background-color: rgb(39, 150, 140);
+    border: solid 4px;
+    border-color: black;
+    border-radius: 20px;
+    color:white;
+    text-shadow: 1px 1px 0 #000;
+    margin-top: 50px;
+}
+
+
+
+
+#footer{
+    text-align: center;
+    width: 100%;
+    position: absolute;
+    margin-bottom: 0;
+    bottom: 0;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}

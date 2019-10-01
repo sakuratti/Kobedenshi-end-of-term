@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="utf-8">
+        <title>割引決定支援システム</title>
+        <link rel="stylesheet" type="text/css" href="../CSS/login.css">
+        <link rel="shortcut icon" type="image/png" href="../img/SmartFavicon.png">
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript"></script>
+        <script type="text/javascript" src="../JS/login.js"></script>
+    </head>
+    <body>
+        <div id="support">
+            <button type="button" onclick="location.href='../index.html'" id="back">戻る</button>
+        </div>
+        <form>
+            <p>ログインID：<input type="text" name="user_name" class="SelfData" id="fm1" value="12345"></p>
+            <p>パスワード：<input type="password" name="password" class="SelfData" id="fm2" value="12345678">
+                <div id="fm2_error" class="err"></div>
+            </p>
+
+            <div class="product">
+                <input type="submit" id="submit" value="ログイン">
+            </div>
+        </form>
+        <p id="footer"><a href="../HTML/help.html">ヘルプ</a>　｜　©️2019 割引決定支援システム</p>
+    </body>
+</html>

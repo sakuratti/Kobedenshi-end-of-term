@@ -1,0 +1,89 @@
+#support{
+    text-align: left;
+    margin-left: 100px;
+    margin-top:20px;
+}
+#name{
+    float: right;
+    color: rgb(52, 52, 209);
+}
+
+#back{
+    font-size: 20px;
+    height: 90px;
+    width: 200px;
+    font-family: monospace;
+    background-color: rgb(39, 150, 140);
+    border: solid 4px;
+    border-color: black;
+    border-radius: 10px;
+    color:white;
+    text-shadow: 1px 1px 0 #000;
+}
+
+.title{
+    margin-top: 5%;
+    font-size: 50px;
+    font-family: monospace;
+    margin-left: 10%;
+}
+
+#so{
+    float: left;
+    margin-left: 5%;
+}
+#ti{
+    float: left;
+}
+#su{
+    float: left;
+}
+#no{
+    clear: both;
+    float: left;
+    margin-left: 5%;
+}
+#ni{
+    float: left;
+}
+
+.bumon{
+    height: 180px;
+    width: 300px;
+    font-size: 50px;
+    border: solid 2px;
+    border-color: black;
+    border-radius: 10px;
+    color:white;
+    text-shadow: 1px 1px 0 #000;
+}
+#sou{
+    background-color: rgb(219, 163, 58);
+    font-family: monospace;
+}
+#tik{
+    background-color: rgb(129, 46, 32);
+    font-family: monospace;
+}
+#sui{
+    background-color: rgb(47, 165, 185);
+    font-family: monospace;
+}
+#nou{
+    background-color: rgb(28, 133, 36);
+    font-family: monospace;
+}
+#nip{
+    background-color: rgb(111, 129, 46);
+    font-family: monospace;
+}
+
+#footer{
+    text-align: center;
+    width: 100%;
+    position: absolute;
+    margin-bottom: 0;
+    bottom: 0;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="utf-8">
+        <title>割引決定支援システム</title>
+        <link rel="shortcut icon" type="image/png" href="/img/SmartFavicon.png">
+        <link rel="stylesheet" type="text/css" href="part.css">
+    </head>
+    <body>
+        <div id="support">
+            <button type="button" onclick="location.href='menu.html'" id="back">部門選択へ</button>
+            <div id="name"><a href="https://twitter.com/KD51474996" target="_blank">スーパーKD　神戸店</a></div>
+        </div>
+        <div id="main">
+            <div id="alllist">
+                <div id="list">
+                    <img src="../img/ebi.png" class="image">
+                    <div class="discription">
+                        <span class="name">海老フライ</span>
+                        <br>値段: 150円
+                        <br>1日の平均販売数: 15個
+                        <br>廃棄時間 22:00
+                        <br><span class="edit">編集</span>
+                    </div>
+                </div>
+                <div class="list2">
+                    <img src="../img/food_hors_doeuvre_oodoburu.png" class="image2">
+                    <div class="discription2" id="disc2">
+                        <span class="name">オードブル</span>
+                        <br>値段: 898円
+                        <br>1日の平均販売数: 5個
+                        <br>廃棄時間 23:00
+                        <br><span class="edit">編集</span>
+                    </div>
+                </div>
+                <div class="list2">
+                    <img src="../img/obento.png" class="image2">
+                    <div class="discription2" id="disc2">
+                        <span class="name">幕の内弁当</span>
+                        <br>値段: 398円
+                        <br>1日の平均販売数: 17個
+                        <br>廃棄時間 23:00
+                        <br><span class="edit">編集</span>
+                    </div>
+                </div>
+            </div>
+            <div id="add">
+                <div id="edit1">
+                    <div class="title">商品追加</div>
+                    <div id="names"> 商品名：<input type="text" class="SelfDatas" placeholder="海老チリ"></div>
+                    <div id="names"> 値段：<input type="text" class="SelfDatas" placeholder="298">円</div>
+                    <div id="names"> 販売数：<input type="text" class="SelfDatas" placeholder="9">個</div>
+                    <div id="names"> 廃棄時間：<input type="text" class="SelfDatas" placeholder="22:30"></div>
+                    <button type="button" id="oks">追　加</button>
+                </div>
+                <div id="edit2">
+                    <span class="title">月別売上</span>
+                    <div id="itiroku">
+                        <div class="month"> 1月：<input type="text" class="SelfData" value="6,800,000"></div>
+                        <div class="month"> 2月：<input type="text" class="SelfData" value="5,900,000"></div>
+                        <div class="month"> 3月：<input type="text" class="SelfData" value="6,200,000"></div>
+                        <div class="month"> 4月：<input type="text" class="SelfData" value="6,100,000"></div>
+                        <div class="month"> 5月：<input type="text" class="SelfData" value="5,800,000"></div>
+                        <div class="month"> 6月：<input type="text" class="SelfData" value="5,500,000"></div>
+                    </div>
+                    <div id="nanani">
+                        <div class="month"> 7月：<input type="text" class="SelfData" value="5,600,000"></div>
+                        <div class="month"> 8月：<input type="text" class="SelfData" value="5,800,000"></div>
+                        <div class="month"> 9月：<input type="text" class="SelfData" value="6,600,000"></div>
+                        <div class="month"> 10月：<input type="text" class="SelfData" value="6,200,000"></div>
+                        <div class="month"> 11月：<input type="text" class="SelfData" value="6,300,000"></div>
+                        <div class="month"> 12月：<input type="text" class="SelfData" value="7,200,000"></div>
+                    </div>
+                    <button type="button" id="ok">確　定</button>
+                </div>
+            </div>
+        </div>
+        <p id="footer"><a href="../HTML/help.html">ヘルプ</a>　｜　©️2019 割引決定支援システム</p>
+    </body>
+</html>

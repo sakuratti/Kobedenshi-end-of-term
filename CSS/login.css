@@ -1,0 +1,75 @@
+body{
+    font-size: 50px;
+    font-family: Hiragino Kaku Gothic Std;
+    background-color: white
+    height: 100%;
+    text-align: center;
+}
+
+#support{
+    text-align: left;
+    margin-left: 100px;
+    margin-top:50px;
+}
+
+#back{
+    font-size: 25px;
+    height: 70px;
+    width: 180px;
+    font-family: monospace;
+    background-color: rgb(39, 150, 140);
+    border: solid 4px;
+    border-color: black;
+    border-radius: 10px;
+    color:white;
+    text-shadow: 1px 1px 0 #000;
+}
+
+.SelfData{
+    height: 50px;
+    width: 400px;
+    font-size: 50px;
+    text-align: center;
+    font-family: Hiragino Kaku Gothic Std;
+    background-color: floralwhite;
+}
+
+form{
+    margin-top: 80px;
+}
+
+.product{
+    margin-top: 100px;
+    height: 70px;
+}
+
+.err{
+    font-size: 30px;
+    color: red;
+}
+
+#submit{
+    font-size:40px;
+    width: 250px;
+    height: 100px;
+    font-family: monospace;
+    background-color: rgb(157, 214, 83);
+    border: solid 4px;
+    border-color: black;
+    border-radius: 10px;
+    color:white;
+    text-shadow: 1px 1px 0 #000;
+}
+
+
+
+
+
+#footer{
+    width: 100%;
+    margin-top:20px;
+    position: absolute;
+    bottom: 0;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}

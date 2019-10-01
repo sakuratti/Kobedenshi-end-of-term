@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="utf-8">
+        <title>割引決定支援システム</title>
+        <link rel="shortcut icon" type="image/png" href="/img/SmartFavicon.png">
+        <link rel="stylesheet" type="text/css" href="../CSS/shopinfo.css">
+    </head>
+    <body>
+        <div id="support">
+            <button type="button" onclick="location.href='menu.html'" id="back">メニューへ</button>
+            <div id="name"><a href="https://twitter.com/KD51474996" target="_blank">スーパーKD　神戸店</a></div>
+        </div>
+        <div id="setbody">
+            <div id="Youbi">
+                <div class="title">曜日別平均売上(全体)</div>
+                <div>月：<input type="text" class="SelfData" value="390,000"></div>
+                <div>火：<input type="text" class="SelfData" value="380,000"></div>
+                <div>水：<input type="text" class="SelfData" value="400,000"></div>
+                <div>木：<input type="text" class="SelfData" value="400,000"></div>
+                <div>金：<input type="text" class="SelfData" value="440,000"></div>
+                <div>土：<input type="text" class="SelfData" value="520,000"></div>
+                <div>日：<input type="text" class="SelfData" value="540,000"></div>
+                <div id="gird">
+                    <button type="button" id="ok">確定</button>
+                </div>
+                <div id="empty"></div>
+            </div>
+            <div id="Month">
+                <div class="title">月別売上（全体）</div>
+                <div> 1月：<input type="text" class="SelfData" value="17,800,000"></div>
+                <div>2月：<input type="text" class="SelfData" value="16,100,000"></div>
+                <div>3月：<input type="text" class="SelfData" value="15,900,000"></div>
+                <div>4月：<input type="text" class="SelfData" value="16,700,000"></div>
+                <div>5月：<input type="text" class="SelfData" value="15,800,000"></div>
+                <div>6月：<input type="text" class="SelfData" value="15,100,000"></div>
+                <div>7月：<input type="text" class="SelfData" value="16,200,000"></div>
+                <div>8月：<input type="text" class="SelfData" value="15,800,000"></div>
+                <div>9月：<input type="text" class="SelfData" value="16,300,000"></div>
+                <div>10月：<input type="text" class="SelfData" value="16,900,000"></div>
+                <div>11月：<input type="text" class="SelfData" value="17,200,000"></div>
+                <div>12月：<input type="text" class="SelfData" value="18,300,000"></div>
+                <div id="gird">
+                    <button type="button" id="ok">確定</button>
+                </div>
+                <div id="empty"></div>
+            </div>
+            <div id="Bumon">
+                <div class="title">部門一覧</div>
+                <div><button type="button" onclick="location.href='../Department/part1.html'" class="bumon" id="sou">惣菜</button></div>
+                <div><button type="button" onclick="location.href='../Department/part2.html'" class="bumon" id="tik">畜産</button></div>
+                <div><button type="button" onclick="location.href='../Department/part3.html'" class="bumon" id="sui">水産</button></div>
+                <div><button type="button" onclick="location.href='../Department/part4.html'" class="bumon" id="nou">農産</button></div>
+                <div><button type="button" onclick="location.href='../Department/part5.html'" class="bumon" id="nip">日配</button></div>
+                <div class="title" id="tuisaku">部門追加・削除</div>
+                <div>
+                    <input type="text" class="SelfData" placeholder="ベーカリー">
+                    <button type="button" class="ts">追加</button>
+                </div>
+                <div>
+                    <select class="SelfData" id="delete">
+                        <option value="example">惣菜</option>
+                        <option value="example">畜産</option>
+                        <option value="example">水産</option>
+                        <option value="example">農産</option>
+                        <option value="example">日配</option>
+                    </select>
+                    <button type="button" class="ts" id="del">削除</button>
+                </div>
+            </div>
+
+        <p id="footer"><a href="help.html">ヘルプ</a>　｜　©️2019 割引決定支援システム</p>
+    </body>
+</html>

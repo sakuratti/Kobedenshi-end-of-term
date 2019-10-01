@@ -1,0 +1,45 @@
+<!DOCTYPE html> 
+    <html>
+        <head>
+            <meta charset="utf-8">
+            <title>割引決定支援システム</title>
+            <link rel="stylesheet" type="text/css" href="../CSS/help.css">
+            <link rel="shortcut icon" type="image/png" href="../img/SmartFavicon.png">
+            <script type="text/javascript" src="../JS/return.js"></script>
+        </haed>
+        <body>
+        <ol><span class="big">入力に関する説明</span>
+            <li>割引対象の廃棄までの時間を入力してください　例)現在時刻19時、廃棄時刻22時 → 販売時間 3h<br><span class="red">注</span>: 1時間以上確保してください</li>
+            <li>割引対象の一日の販売数を入力してください</li>
+            <li>割引対象の在庫(売りたい数)を入力してください</li>
+        </ol>
+        <ul><span class="big">計算結果に関する説明</span>
+            <li>おすすめ割引率は天候、不快指数、曜日、販売する時間帯によって求められます</li>
+            <li>予想販売数は割引をしなかった場合の販売数を予想しています</li>
+            <li>不快指数は~60が寒い、75~暑い</li>
+        </ul>
+        <ul><span class="big">システム全体に関する説明</span>
+            <li>AM0時00分からAM8時00分は利用する事ができません</li>
+            <li>計算できるのは当日に廃棄される商品に限られます(翌AM1:00時も可)</li>
+            <li>天候に関するデータは気象庁が発表するデータを参考にしています</li>
+        </ul>
+        <ul><span class="big">設定に関する説明</span>
+            <div class="big2">全体設定</div>
+            <li>店の1日の平均売上を曜日別に入力してください</li>
+            <li>店の1ヶ月の売上を月別に入力してください</li>
+            <div class="big2">部門設定</div>
+            <li>割引対象商品を登録してください</li>
+            <li>販売数には1日の平均販売数を入力してください</li>
+            <li>廃棄時間は深夜1時までに設定してください</li>
+            <li>部門の売上を月別に入力してください</li>
+        </ul>
+        <div id="g0">
+            <div id="g1">画像について</div>
+            <div id="g2">ファビコン以外は<a href="https://www.irasutoya.com">いらすとや</a>の物を使用しています</div>
+        </div>
+        <div id="support">
+            <button type="button" onclick="main();" id="back">戻る</button>
+        </div>
+        <p id="footer">©️2019 割引決定支援システム</p>
+        </body>
+    </html>

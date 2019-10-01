@@ -1,0 +1,67 @@
+body{
+    text-align: center;
+    font-family: Hiragino Kaku Gothic Std;
+    background-color: white
+}
+
+.attention{
+    font-size: 100px;
+    color: red;
+}
+
+h1{
+    margin-top: 100px;
+    font-size: 100px;
+}
+
+#Check1{
+    color: red;
+}
+
+h2{
+    margin-top: 70px;
+    font-size: 50px;
+    color: darkslategray;
+}
+
+#Check2{
+    color: palevioletred;
+}
+
+.a1{
+    font-size: 50px;
+    color: darkslategray;
+}
+
+#Check3{
+    color: palevioletred;
+}
+
+.a2{
+    font-size: 50px;
+    color: darkslategray;
+}
+
+
+#footer{
+    width: 100%;
+    position: absolute;
+    margin-bottom: 0;
+    bottom: 0;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#back{
+    font-size:40px;
+    width: 250px;
+    height: 100px;
+    font-family: monospace;
+    background-color: rgb(39, 150, 140);
+    border: solid 4px;
+    border-color: black;
+    border-radius: 10px;
+    color:white;
+    text-shadow: 1px 1px 0 #000;
+    margin-top: 50px;
+}
