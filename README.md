@@ -1,3 +1,4 @@
-# Kobedenshi-end-of-term
+# Wariwari.shop
 
-Webアプリケーションに変更しました。
+神戸電子専門学校　櫻井亮大の
+前期期末発表会　制作物です。
