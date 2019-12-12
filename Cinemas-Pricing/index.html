@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="utf-8">
+        <title>上映一覧</title>
+        <link rel="stylesheet" href="/CSS/default.css">
+        <link rel="stylesheet" href="/CSS/index.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div class="header text-center bg-primary mb-5">
+            <span class="display-3">Cinema Kobe</span>
+        </div>
+        <div class="container mb-5">
+            <h1>日付選択</h1>
+            <hr>
+            <div class="row">
+                <div class="col-xs-6 col-sm-6 col-md-3 mb-3">
+                    <button type="button" class="btn btn-secondary btn-block">12月11日(本日)</button>
+                </div>
+                <div class="col-xs-6 col-sm-6 col-md-3 mb-3">
+                    <button type="button" class="btn btn-info btn-block">12月12日(木)</button>   
+                </div>
+                <div class="col-xs-6 col-sm-6 col-md-3 mb-3">
+                    <button type="button" class="btn btn-info btn-block">12月13日(金)</button>   
+                </div>
+                <div class="col-xs-6 col-sm-6 col-md-3 mb-3">
+                    <button type="button" class="btn btn-info btn-block">12月14日(土)</button>   
+                </div>
+            </div>
+            <div class="discription mb-5">本日より、3日先までのチケット予約・購入が可能です。</div>
+            <!--ここは日にちが変わるように-->
+            <div class="day-info">
+                <h1>2019年12月11日(本日)</h1>
+                <div class="border col-12">
+                    <div class="row">
+                        <span id="yes-purchase" class="col-2">★購入可能</span>
+                        <span id="pricing" class="col-2">★価格変動</span>
+                        <span id="no-purchase" class="col-2">★購入不可</span>
+                    </div>
+                </div>
+                <hr>
+                <div class="screen-list">
+                    <div class="screen">
+                        <h2>アナと雪の女王2</h2>
+                        <div class="row">
+                            <div class="col-xs-6 col-sm-6 col-md-5 mb-3">
+                                <button type="button" class="btn btn-secondary btn-block">10:00-12:00</button>
+                            </div>
+                            <div class="col-xs-6 col-sm-6 col-md-5 mb-3">
+                                <button type="button" class="btn btn-warning btn-block">13:00-15:00</button>
+                            </div>
+                            <div class="col-xs-6 col-sm-6 col-md-5 mb-3">
+                                <button type="button" class="btn btn-info btn-block">15:00-17:00</button>
+                            </div>
+                            <div class="col-xs-6 col-sm-6 col-md-5 mb-3">
+                                <button type="button" class="btn btn-info btn-block">19:00-21:00</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="screen">
+                        <h2>ターミネーター　ニューフェイト</h2>
+                        <div class="row">
+                            <div class="col-xs-6 col-sm-6 col-md-5 mb-3">
+                                <button type="button" class="btn btn-secondary btn-block">10:00-12:00</button>
+                            </div>
+                            <div class="col-xs-6 col-sm-6 col-md-5 mb-3">
+                                <button type="button" class="btn btn-info btn-block">13:00-15:00</button>
+                            </div>
+                            <div class="col-xs-6 col-sm-6 col-md-5 mb-3">
+                                <button type="button" class="btn btn-info btn-block">15:00-17:00</button>
+                            </div>
+                            <div class="col-xs-6 col-sm-6 col-md-5 mb-3">
+                                <button type="button" class="btn btn-info btn-block">19:00-21:00</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="screen">
+                        <h2>ドクター・スリープ</h2>
+                        <div class="row">
+                            <div class="col-xs-6 col-sm-6 col-md-5 mb-3">
+                                <button type="button" class="btn btn-secondary btn-block">10:00-12:00</button>
+                            </div>
+                            <div class="col-xs-6 col-sm-6 col-md-5 mb-3">
+                                <button type="button" class="btn btn-info btn-block">13:00-15:00</button>
+                            </div>
+                            <div class="col-xs-6 col-sm-6 col-md-5 mb-3">
+                                <button type="button" class="btn btn-info btn-block">15:00-17:00</button>
+                            </div>
+                            <div class="col-xs-6 col-sm-6 col-md-5 mb-3">
+                                <button type="button" class="btn btn-info btn-block">19:00-21:00</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="screen">
+                        <h2>Joker ジョーカー</h2>
+                        <div class="row">
+                            <div class="col-xs-6 col-sm-6 col-md-5 mb-3">
+                                <button type="button" class="btn btn-secondary btn-block">10:00-12:00</button>
+                            </div>
+                            <div class="col-xs-6 col-sm-6 col-md-5 mb-3">
+                                <button type="button" class="btn btn-info btn-block">13:00-15:00</button>
+                            </div>
+                            <div class="col-xs-6 col-sm-6 col-md-5 mb-3">
+                                <button type="button" class="btn btn-info btn-block">15:00-17:00</button>
+                            </div>
+                            <div class="col-xs-6 col-sm-6 col-md-5 mb-3">
+                                <button type="button" class="btn btn-info btn-block">19:00-21:00</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="screen">
+                        <h2>IT THE END 'それ'が見えたら、終わり。</h2>
+                        <div class="row">
+                            <div class="col-xs-6 col-sm-6 col-md-5 mb-3">
+                                <button type="button" class="btn btn-secondary btn-block">10:00-12:00</button>
+                            </div>
+                            <div class="col-xs-6 col-sm-6 col-md-5 mb-3">
+                                <button type="button" class="btn btn-info btn-block">13:00-15:00</button>
+                            </div>
+                            <div class="col-xs-6 col-sm-6 col-md-5 mb-3">
+                                <button type="button" class="btn btn-info btn-block">15:00-17:00</button>
+                            </div>
+                            <div class="col-xs-6 col-sm-6 col-md-5 mb-3">
+                                <button type="button" class="btn btn-info btn-block">19:00-21:00</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="bg-primary text-center p-2">
+                ©️ Sakurai Ryota
+            </div>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,35 @@
+/*色の紹介*/
+/*囲み枠*/
+.frame{
+    border-style: dotted;
+    border-color: rgb(213, 201, 216);
+}
+/*説明*/
+#yes-purchase{
+    color: rgb(6, 144, 179);
+}
+#no-purchase{
+    color: gray;
+}
+#pricing{
+    color:rgb(214, 185, 18);
+}
+
+/*注意書き*/
+.discription{
+    margin-top: 1em;
+}
+
+/*映画情報*/
+/*大枠*/
+.day-info{
+    margin-top: 2em;
+    margin-bottom: 10em;
+}
+/*上映一覧*/
+.screen-list{
+    margin-top: 5em;
+}
+.screen{
+    margin-top:4em;
+}

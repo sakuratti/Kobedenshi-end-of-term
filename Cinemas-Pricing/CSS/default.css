@@ -1,0 +1,16 @@
+.header{
+    color: white;
+    font-family: fantasy;
+}
+
+/* チケット購入過程 */
+.process{
+    font-family: monospace;
+    color: honeydew;
+}
+
+
+.footer{
+    color: white;
+    font-family: serif;
+}
